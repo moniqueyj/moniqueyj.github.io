@@ -1,0 +1,36 @@
+body {
+  background-image: url("../image/pfimage7.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  color: #206020;
+  display: flex;
+  justify-content: space-around;;
+  font-size: 18px;
+  padding: 10px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+}
+
+main {
+  margin: auto;
+  width: 80%;
+}
+
+address {
+  display: inline-block;
+}
+
+hr {
+  margin: 1em;
+  width: 98%;
+}
