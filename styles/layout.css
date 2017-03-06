@@ -64,7 +64,7 @@
 
 
 /*///////////base screen////////*/
-#blogTitle {
+.blogTitle {
   margin-top: 0px;
   text-align: center;
   font-size: 90px;
@@ -78,6 +78,9 @@
   margin: 10px;
   background-color: #ffe5ff;
   padding: 10px;
+}
+.menuBar img {
+  margin-left: 10px;
 }
 
 @media only screen and (max-width: 640px) {
@@ -113,7 +116,7 @@
 
 
   @media only screen and (min-width: 992px) {
-    #blogTitle {
+    .blogTitle {
       color: #b2b300;
     }
   }
@@ -178,21 +181,46 @@
 
 /*/////// about me ////////*/
 
-#myPic {
-  border: 2px solid #206020;
+/*img.myPic {
+  width: 30px;
+  height: 100px;
+  border: 100px solid black;
   border-radius: 30px;
-}
+}*/
+
+/*.aboutMe {
+  width: 30%;
+  float: right;
+  box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1)
+}*/
 .introduceME {
-  display: flex;
-  flex-direction: row;
+  width: 90%;
+  height: 500px;
 }
 
-.introduceMEdiv {
-  margin-left: 5em;
+/*.introduceME div {
+  width:30%;
+  float:left;
+}*/
+/*.introduceMEdiv {
+  margin-left: 1em;
+  float:left;
 }
 
 #vertical {
-  border-left: 2px solid green;
+  width: 10px solid black;
+  height: 100%;
+  float: left;
+}*/
+.myPic-div {
+  width: 30%;
+  height: 500px;
+  float: left;
+}
+
+.profil-div {
+  margin-left: 15%;
+  height: 500px;
 }
 
 @media only screen and (max-width: 640px) {

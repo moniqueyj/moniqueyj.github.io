@@ -1,3 +1,8 @@
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
 body {
   background-image: url("../image/pfimage7.jpeg");
   background-repeat: no-repeat;
