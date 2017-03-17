@@ -177,50 +177,30 @@
     border-radius: 20px;
     padding: 5px;
   }
-
+}
 
 /*/////// about me ////////*/
 
-/*img.myPic {
-  width: 30px;
-  height: 100px;
-  border: 100px solid black;
-  border-radius: 30px;
-}*/
-
-/*.aboutMe {
-  width: 30%;
-  float: right;
-  box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1)
-}*/
-.introduceME {
-  width: 90%;
-  height: 500px;
-}
-
-/*.introduceME div {
-  width:30%;
-  float:left;
-}*/
-/*.introduceMEdiv {
-  margin-left: 1em;
-  float:left;
-}
-
-#vertical {
-  width: 10px solid black;
-  height: 100%;
+img.myPic {
+  width: 80%;
+  height: 90%;
+  margin-left: 30px;
   float: left;
-}*/
+  border-radius: 10px;
+}
+
 .myPic-div {
   width: 30%;
-  height: 500px;
+  height: 350px;
+  margin-top: 10px;
+  margin-left: 5%;
   float: left;
 }
 
-.profil-div {
-  margin-left: 15%;
-  height: 500px;
+.profile-div {
+  width: 60%;
+  margin-left: 30%;
+  height: 370px;
 }
 
 @media only screen and (max-width: 640px) {
