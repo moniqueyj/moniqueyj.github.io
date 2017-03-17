@@ -183,23 +183,32 @@
 
 img.myPic {
   width: 80%;
-  height: 90%;
-  margin-left: 30px;
+  height: 100%;
+  margin-left: 20px;
   float: left;
   border-radius: 10px;
 }
 
 .myPic-div {
-  width: 30%;
+  width: 27%;
   height: 350px;
-  margin-top: 10px;
-  margin-left: 5%;
+  margin-left: 7%;
   float: left;
+}
+
+.vertical {
+  border: 1px solid purple;
+  height: 350px;
+  float: left;
+  margin-right: 5%;
 }
 
 .profile-div {
   width: 60%;
+  padding-top: 2px;
   margin-left: 30%;
+  margin-right: 5%;
+  margin-bottom: 50px;
   height: 370px;
 }
 
